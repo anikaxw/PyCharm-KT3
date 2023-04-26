@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+{%block body%}
+<h2>{{the_title}}</h2>
+<form method="POST" action="/cheese_results">
+        <p>Впишите любое животное:</p>
+            <input name="your_pet" type="TEXT" width=60">
+    <p><input value='Ok' type="SUBMIT"></p>
+</form>
+{%endblock%}
